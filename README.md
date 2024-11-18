@@ -3,6 +3,7 @@
 </h1>
 <h3 align="center">
 	Azubot as a WebApp - A Blazor WebAssembly project
+	Made with MoonCore.Template
 </h3>
 
 ## Overview
