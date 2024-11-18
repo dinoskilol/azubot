@@ -1,0 +1,23 @@
+﻿@page "/mycoolpage"
+@using Azubot.Shared.Http.Responses
+@using MoonCore.Helpers
+@using MoonCore.Blazor.Tailwind.Components
+
+@inject HttpApiClient ApiClient
+
+<h3>MyCoolPage</h3>
+
+<LazyLoader Load="Load">
+    @string.Join(", ", Response.Usernames)
+</LazyLoader>
+
+
+@code 
+{
+    private TestyResponse Response;
+
+    private async Task Load(LazyLoader _)
+    {
+        Response = await ApiClient.GetJson<TestyResponse>("api/testy");
+    }
+}

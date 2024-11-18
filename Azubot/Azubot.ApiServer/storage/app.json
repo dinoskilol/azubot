@@ -1,0 +1,21 @@
+{
+  "PublicUrl": "http://localhost:5265",
+  "Database": {
+    "Host": "localhost",
+    "Port": 3306,
+    "Username": "azubot",
+    "Password": "Roding2024!",
+    "Database": "azubot"
+  },
+  "Authentication": {
+    "AccessSecret": "XJj1iV6vXRj1KjIbXJemmpuIiCNCRku9",
+    "RefreshSecret": "Xd9RgCX3WDQe3phny3vhowC0NTM9Z2fl",
+    "RefreshInterval": 60,
+    "RefreshDuration": 3600,
+    "ClientId": "VTMGNtNP",
+    "ClientSecret": "3LsM4NxaihM7DN3Rnd5Elospj3yT4Vcn",
+    "RedirectUri": null,
+    "AuthorizeEndpoint": null,
+    "UseLocalOAuth2": true
+  }
+}
